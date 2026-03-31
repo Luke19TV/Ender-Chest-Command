@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "eccommand",
+  "version": "1.0.0",
+  "name": "EC Command",
+  "description": "Adds /ec command to open your ender chest anywhere.",
+  "authors": ["luked"],
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.luked.eccommand.EcCommandMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
